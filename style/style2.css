@@ -1,17 +1,19 @@
-#partesi-na{
+#new-one{
     align-items: center;
     display: flex;
-    width: 960px;
+   justify-content: space-between ;
 }  
-#partesi-na .khaba{
+#new-one .chicken{
     width: 50%;
     object-fit: cover;
     align-items: center;
+  
 
 } 
 .shobai{
     display: flex;       /*purata eksthe*/      
- }
+     margin: 0 auto;
+}
 
 .cardi{
     width: 50%;
@@ -21,10 +23,10 @@
     align-items: center;
     padding: 20px;
     text-align: center;
-    background-color: aqua;
+    background-color: white;
 }
 
-#partesi-na .shobai .title{
+#new-one .shobai .title{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 48px;
@@ -32,9 +34,9 @@
     line-height: 64px;
     letter-spacing: 0%;
     text-align: center;
-
+    
 }
-#partesi-na .shobai .cardi .des{
+#new-one .shobai .cardi .des{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 24px;
@@ -48,12 +50,12 @@
     opacity: 0.6;  
 }
 
-#partesi-na .web{
+#new-one .web{
    display: flex;                 /*  4ta website ek sthe*/
    justify-content: center;
    gap: 32px;
 }
-#partesi-na .follow{  
+#new-one .follow{  
     font-family: Arial, Helvetica, sans-serif;
    margin-top: 48px;
     margin-bottom: 32px;                  /* button type*/

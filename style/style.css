@@ -87,7 +87,7 @@ cursor: pointer;
    
 }
 
-#card-box .title {
+#card-box.title {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 48px;
@@ -98,13 +98,13 @@ cursor: pointer;
 }
 #card-box .subtitle{
     color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 24px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: center;
-opacity: 0.6;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
 }
 .card-container{
    margin-top: 33px;
@@ -134,27 +134,78 @@ opacity: 0.6;
     background: rgba(82, 195, 3, 0.15);
 }
 
-#card-boxx .card{
+#new-one{
+    align-items: center;
+    display: flex;
+   justify-content: space-between ;
+}  
+#new-one .chicken{
+    width: 50%;
+    object-fit: cover;
+    align-items: center;
+  
+
+} 
+.shobai{
+    display: flex;       /*purata eksthe*/      
+     margin: 0 auto;
+}
+
+.cardi{
+    width: 50%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;         /* only card */
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#new-one .shobai .title{
     color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 24px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Work Sans;
+    font-size: 40px;
+  font-weight: 700;                  /* prothom text */
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    
 }
-#card-boxx .title{
+#new-one .shobai .cardi .des{
     color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 48px;
-font-weight: 700;
-line-height: 64px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;          /*  porer choto tect<p>*/
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 24px ;
+    margin-top:24px ;
+    color:#333;
+    opacity: 0.6;  
 }
-#card-boxx .cardd{
-   display: flex;
+
+#new-one .web{
+   display: flex;                 /*  4ta website ek sthe*/
+   justify-content: center;
+   gap: 32px;
 }
+#new-one .follow{  
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top: 48px;
+    margin-bottom: 32px;                  /* button type*/
+   box-sizing: border-box;
+border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+ border-top: 1px solid rgba(16, 16, 16, 0.2); 
+ background-color:white;
+ text-align: center;
+ padding: 24px;
+ font-weight: bold;
+ color:rgb(16, 16, 16);
+ opacity: 0.7;
+}
+
 
 
 
